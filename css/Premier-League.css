@@ -1,0 +1,209 @@
+.nogomet{
+  font-size: 12px;
+  letter-spacing: 0.8px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: grey;
+}
+.premier-league{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.premier-league img{
+ width: 80px;
+  border: 1px solid grey;
+  border-radius: 12px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+.premier-league--text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.premier-league--text h3{
+  font-size: 29px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+.premier-league--text h6{
+  font-size: 15px;
+  color: grey;
+}
+.zadnji-rezultati{
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  margin-bottom: 18px;
+}
+.lp1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content:space-between;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 4px;
+
+
+}
+.datum{
+  font-size: 14px;
+  color: grey;
+}
+
+/* -----------------------GRID MOJ!----------------------- */
+.naj-strijelci{
+  margin-top: 20px;
+}
+.parent2 {
+
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 5fr) repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-bottom: 1px solid grey;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  padding: 10px;
+}
+.premijerligatabela{
+  height: 100vh;
+}
+.parent3{
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100%;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  padding: 4px;
+}
+.ime-tima{
+  grid-area: 1 / 2 / 2 / 7;
+  display: flex;
+  align-items: center;
+
+}
+.forma{
+  grid-area: 1 / 13 / 2 / 16;
+  display: flex;
+  flex-direction: row;
+
+}
+.ut-p{
+  background-color: green;
+  margin: 2px;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ut-n{
+  background-color: orange;
+  margin: 2px;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ut-i{
+  background-color: #bf1010;
+  margin: 2px;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.grb-kluba{
+  height: 28px;
+  margin-right: 10px;
+}
+.prviutabeli{
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: rgb(0, 70, 130);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  font-weight: 600;
+  color: white;
+  border-radius: 6px;
+  height: 21px;
+  width: 21px;
+  font-size:  14px;
+
+}
+.drugiutabeli{
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: rgb(127, 0, 41);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  font-weight: 600;
+  color: white;
+  border-radius: 6px;
+  height: 21px;
+  width: 21px;
+  font-size: 14px;
+}
+.treciutabeli{
+  grid-area: 1 / 1 / 2 / 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  font-weight: 600;
+  color: black;
+  border-radius: 6px;
+  height: 21px;
+  width: 21px;
+  font-size: 14px;
+}
+
+.broj { grid-area: 1 / 1 / 2 / 2;
+background-color: #f5f2f2;
+display: flex;
+align-items: center;
+justify-content: center;
+  width: 30px;
+  font-weight: 600;
+
+}
+.B{
+  display: flex;
+  justify-content: center;
+}
+
+.ime-igraca { grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  flex-direction: row;
+
+
+  align-items: center;
+
+margin-left: -10px}
+.timigraca { grid-area: 1 / 3 / 2 / 4; }
+.golovi { grid-area: 1 / 4 / 2 / 5;
+font-weight: 600;
+}
+.asistencije { grid-area: 1 / 5 / 2 / 6; }
+.zastava-eng{
+  height: 20px;
+margin-right: 10px;
+
+}
